@@ -60,7 +60,7 @@ console.log("--------------------------------------------")
 let a = 10;
 console.log("valor inicial de a:", a);
 a += 5;
-a = a + 5;
+
 console.log("após a += 5:", a);
 a -= 3;
 console.log("após a -= 3:", a);
