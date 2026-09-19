@@ -32,6 +32,7 @@ let bigNumber = 1234567890123456789012345678901234567890n; // exemplo de BigInt 
 //Object
 //Objeto representando um aluno. 
 // Não tem ordem fixa e são identificados por nomes
+
 let dadoAluno = {
     matricula: 123,
     nome: "Julia",

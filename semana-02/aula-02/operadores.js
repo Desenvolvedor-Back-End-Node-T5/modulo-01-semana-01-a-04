@@ -72,3 +72,34 @@ a %= 3;
 console.log("após a %= 3:", a);
 a **= 2;
 console.log("após a **= 2:", a);
+
+// OPERADORES LOGICOS
+
+let valorE = true;
+let valorF = false;
+
+console.log("AND lógico: " + (valorE && valorF)); // false
+console.log("OR lógico: " + (valorE || valorF)); // true
+console.log("NOT lógico: " + (!valorE)); // false
+
+let valor1 = 10;
+let valor2 = 20;
+
+console.log("AND lógico valores 1 e 2: " + (valor1 > 10 && valor2 < 50)); // false
+console.log("OR lógico valores 1 e 2: " + (valor1 > 10 || valor2 < 50)); // true
+console.log("NOT lógico valores 1 e 2: " + (!(valor1 > 10 && valor2 < 50))); // true
+
+console.log("numero 0", !0);
+
+//OPERADORES DE COMPARAÇÃO
+let valorG = 10;
+let valorH = 5;
+
+console.log("Igualdade: " + (valorG == valorH)); // false -> compara apenas o valor
+console.log("Desigualdade: " + (valorG != valorH)); // true -> compara apenas o valor
+console.log("Maior que: " + (valorG > valorH)); // true
+console.log("Menor que: " + (valorG < valorH)); // false
+console.log("Maior ou igual a: " + (valorG >= valorH)); // true
+console.log("Menor ou igual a: " + (valorG <= valorH)); // false
+console.log("Igualdade estrita: " + (valorG === valorH)); // false -> compara valor e tipo do dado
+console.log("Desigualdade estrita: " + (valorG !== valorH)); // true -> compara valor e tipo do dado
