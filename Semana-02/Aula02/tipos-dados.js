@@ -53,7 +53,7 @@ let dadoAluno = {
 
 // Array => Representa uma lista de dados ordenada dentro de colchetes ([])
 // Lista sequencial de elementos. Aqui a ordem importa muito!
-// Os dados não têm nomes próprios, eles são identificados pela sua posição na lida (index), começando sempre do 0
+// Os dados não têm nomes próprios, eles são identificados pela sua posição na lista (index), começando sempre do 0
 let notasAluno = [ 10, 10, 10]; // Lista ordenada de valores dentro de um índice (index), podendo acessar pela posição
 
 // Introdução a função/function

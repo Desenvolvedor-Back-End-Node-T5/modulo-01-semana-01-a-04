@@ -2,13 +2,13 @@ console.log("oi");
 
 /*
 Esse comando acima, sozinho não faz nada, quem irá interpretar é o node
-Abrir um novo termina na pasta do arquivo: node + nome do arquivo.js
+Abrir um novo terminal na pasta do arquivo: node + nome do arquivo.js
 Exemplo: node aula-1.js
 */
 
 /*
 
-Variáveis -> Identificador utuilizado para armazenar um valor na memória durante a execução do programa.
+Variáveis -> Identificador utilizado para armazenar um valor na memória durante a execução do programa.
 
 Exemplo de sintaxe de definição/declaração de variável: 
 
@@ -38,7 +38,7 @@ let -> Usado quando sabe-se que o valor dentro da variável mudará com o tempo,
 - Placar de um jogo de futebol;
 - A idade de uma pessoa;
 
-const -> Usa-se para guardar um valor imutável, se tentar alterar o próprio JS trava e dá erro, por exemplo: 
+const -> Usa-se para guardar um valor imutável, se tentar alterar, o próprio JS trava e dá erro, por exemplo: 
 - CPF;
 - Data de Nascimento;
 - Valor de Pi: 3.14;
@@ -61,7 +61,7 @@ Boas práticas:
 
 Recomendado: 
 - let nomeUsuario;
-- consta idadeMinima;
+- const idadeMinima;
 
 Não recomendaddo:
 - let x;
